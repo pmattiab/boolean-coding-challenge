@@ -1,0 +1,64 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Questrial', sans-serif;
+  color: white;
+}
+
+#box_nero{
+  width: 1000px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  margin: 25px auto;
+  padding: 100px;
+}
+
+header{
+  text-align: center;
+  color: lime;
+}
+
+nav{
+  text-align: center;
+  background-color: lime;
+  padding: 10px;
+}
+
+.lista_scooter{
+  padding-top: 25px;
+}
+
+.nome_scooter{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.descrizione{
+  line-height: 25px;
+}
+
+.freccia:before{
+  content: "\21a6";
+}
+
+hr{
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.carica25{
+  width: 150px;
+  background-color: #be4141;
+}
+
+.carica60{
+  width: 350px;
+  background-color: #f5b453;
+}
+
+.carica100{
+  width: 600px;
+  background-color: #1ec31e;
+}
