@@ -2,64 +2,75 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <title>Lim Scooter</title>
   </head>
 
   <body>
-    <div id="box_nero">
 
-      <header> <!-- LOGO E TITOLO -->
-        <img class="logo" src="logo.png" width="250px">
+    <!-- INIZIO WRAPPER -->
+    <div class="wrapper">
+
+      <!-- INIZIO HEADER -->
+      <header>
+
+        <!-- logo -->
+        <img class="logo" src="img/logo.png" alt="logo">
+        
+        <!-- titolo -->
         <h1>Taking Booleaners from A to B</h1>
+        
+        <!-- inizio nav -->
+        <nav>
+          <ul>
+            <li><a href="#"><button type="button">Prenota</button></a></li>
+            <li><a href="#"><button type="button">Termina Prenotazione</button></a></li>
+            <li><a href="#"><button type="button">Accendi Luci</button></a></li>
+          </ul>
+        </nav>
+        <!-- fine nav -->
+
       </header>
+      <!-- FINE HEADER -->
 
-      <nav> <!-- BOTTONI -->
-        <div class="bottoni">
-          <button type="button">Prenota</button>
-          <button type="button">Termina Prenotazione</button>
-          <button type="button">Accendi Luci</button>
+      <!-- INIZIO MAIN -->
+      <main>
+
+        <div class="scooter_list">
+
+          <div class="scooter_check">
+            <input type="checkbox">
+            <span class="scooter_name">Monopattino Gino22</span>
+            <div class="scooter_address">&#8614; Via Guadalametri - a 220 metri da te</div>
+            <span class="battery_status">Stato carica:</span>
+            <div class="battery_bar charge60"></div>
+          </div>
+
+          <div class="scooter_check">
+            <input type="checkbox">
+            <span class="scooter_name">Monopattino Mike24</span>
+            <div class="scooter_address">&#8614; Via Guadalametri - a 420 metri da te</div>
+            <span class="battery_status">Stato carica:</span>
+            <div class="battery_bar charge100"></div>
+          </div>
+
+          <div class="scooter_check">
+            <input type="checkbox">
+            <span class="scooter_name">Monopattino Fede154</span>
+            <div class="scooter_address">&#8614; Via Guadalametri - a 490 metri da te</div>
+            <span class="battery_status">Stato carica:</span>
+            <div class="battery_bar charge25"></div>
+          </div>
+
         </div>
-      </nav>
-
-      <main> <!-- SCELTA MONOPATTINI -->
-
-          <div class="lista_scooter">
-            <input type="checkbox">
-            <span class="nome_scooter">Monopattino Gino22</span>
-            <div class="descrizione">
-              <span class="freccia"></span>
-              Via Guadalametri - a 220 metri da te
-            </div>
-            <div>Stato carica:</div>
-            <hr align="left" class="carica60">
-          </div>
-
-          <div class="lista_scooter">
-            <input type="checkbox">
-            <span class="nome_scooter">Monopattino Mike24</span>
-            <div class="descrizione">
-              <span class="freccia"></span>
-              Via Ricciardoni - a 420 metri da te
-            </div>
-            <div>Stato carica:</div>
-            <hr align="left" class="carica100">
-          </div>
-
-          <div class="lista_scooter">
-            <input type="checkbox">
-            <span class="nome_scooter">Monopattino Fede154</span>
-            <div class="descrizione">
-              <span class="freccia"></span>
-              Via Mentarini - a 490 metri da te
-            </div>
-            <div>Stato carica:</div>
-            <hr align="left" class="carica25">
-          </div>
 
       </main>
+      <!-- FINE MAIN -->
+    
+    </div>
+    <!-- FINE WRAPPER -->
 
   </body>
 </html>

@@ -1,64 +1,80 @@
-body{
-  background-image: url(background.jpg);
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Questrial', sans-serif;
   color: white;
 }
 
-#box_nero{
-  width: 1000px;
+.wrapper {
+  width: 70%;
   background-color: rgba(0,0,0,0.5);
   border-radius: 15px;
   margin: 25px auto;
   padding: 100px;
 }
 
-header{
+/* HEADER */
+header {
   text-align: center;
   color: lime;
 }
 
-nav{
+.logo {
+  width: 250px;
+  height: auto;
+}
+
+nav {
   text-align: center;
   background-color: lime;
   padding: 10px;
+  margin: 10px 0;
 }
 
-.lista_scooter{
-  padding-top: 25px;
+nav li {
+  display: inline-block;
 }
 
-.nome_scooter{
+/* MAIN */
+.scooter_check {
+  margin: 25px 0;
+}
+
+.scooter_name {
   font-size: 25px;
   font-weight: bold;
 }
 
-.descrizione{
+.scooter_address {
   line-height: 25px;
 }
 
-.freccia:before{
-  content: "\21a6";
-}
-
-hr{
+.battery_bar {
   height: 30px;
-  border: 0;
   border-radius: 10px;
+  margin-top: 10px;
 }
 
-.carica25{
+.charge25 {
   width: 150px;
   background-color: #be4141;
 }
 
-.carica60{
+.charge60 {
   width: 350px;
   background-color: #f5b453;
 }
 
-.carica100{
+.charge100 {
   width: 600px;
   background-color: #1ec31e;
 }
